@@ -78,6 +78,7 @@ This collection includes Python and Bash scripts for managing various AWS servic
 | Organizations  | [org_list_accounts_by_ou.py](organizations/org_list_accounts_by_ou.py)                            | Lists accounts in an OU                                            |
 | Organizations  | [org_list_sso_assignments.py](organizations/org_list_sso_assignments.py)                          | Lists SSO assignments for accounts                                 |
 | Organizations  | [org_remove_sso_access_by_ou.py](organizations/org_remove_sso_access_by_ou.py)                    | Removes SSO access for accounts in an OU                           |
+| Route 53       | [r53_create_health_checks.py](r53/r53_create_health_checks.py)                                    | Creates Route 53 health checks                                     |
 | S3             | [s3_create_tar.py](s3/s3_create_tar.py)                                                           | Creates tar files                                                  |
 | S3             | [s3_delete_empty_buckets.py](s3/s3_delete_empty_buckets.py)                                       | Deletes empty S3 buckets                                           |
 | S3             | [s3_list_old_files.py](s3/s3_list_old_files.py)                                                   | Lists old files in S3                                              |
@@ -87,6 +88,7 @@ This collection includes Python and Bash scripts for managing various AWS servic
 | S3             | [s3_search_key.py](s3/s3_search_key.py)                                                           | Searches for a key in S3 bucket                                    |
 | S3             | [s3_search_multiple_keys.py](s3/s3_search_multiple_keys.py)                                       | Searches for multiple keys in S3 bucket                            |
 | S3             | [s3_search_subdirectory.py](s3/s3_search_subdirectory.py)                                         | Searches subdirectories in S3                                      |
+| SSM            | [port-forwarding.sh](ssm/proxy.sh)                                                                          | Creates an SSM port forwarding tunnel to access private resources  |
 | SSM            | [ssm_delete_parameters.sh](ssm/ssm_delete_parameters.sh)                                          | Deletes SSM parameters                                             |
 | SSM            | [ssm_import_parameters.sh](ssm/ssm_import_parameters.sh)                                          | Imports SSM parameters                                             |
 | General        | [delete_unused_security_groups.py](general/delete_unused_security_groups.py)                      | Deletes unused security groups                                     |
@@ -97,6 +99,7 @@ This collection includes Python and Bash scripts for managing various AWS servic
 
 
 ---
+
 
 ## AWS Tools and Utilities
 
